@@ -34,10 +34,10 @@ hinata::hinata(int b){
 int main(){
 	int a;
 	hinata jms;      // 這行宣告就會執行 jms.hinata()
-	hinata jams(40); // 這行宣告執行 bond.hinata(int b);
+	hinata bond(40); // 這行宣告執行 bond.hinata(int b);
 	cout<<"輸入一整數:";
 	cin>>a;
-	cout<<endl;
+
 	jms.set(a);
 	jms.show();
 	
